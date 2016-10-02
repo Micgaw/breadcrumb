@@ -1,0 +1,9 @@
+<div ng-controller="BreadcrumbCtrl">
+    <button type="button" class="addStep" ng-click="addStep()">Add Step</button>
+
+    <div class="breadcrumb-holder">
+        <div class="breadcrumb" ng-repeat="s in steps">
+            <div step data="s" action="getAction(s.actionName, s.actionParameters)"></div>
+        </div>
+    </div>
+</div>

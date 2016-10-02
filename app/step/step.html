@@ -1,0 +1,17 @@
+<div class="step">
+    <div class="step-overline" style="background-color: {{data.color}};"></div>
+    <div class="step-holder" ng-click="action()">
+        <div class="step-icons" ng-repeat="icon in data.icons">
+            <div class="step-icons-list">
+                <i class={{icon.pic}} aria-hidden="true"></i>
+            </div>
+            <div class="step-icons-title">{{icon.title}}</div>
+        </div>
+        <div class="step-content">
+            <b class="step-content-title">Set: {{data.title}}</b>
+            <div ng-repeat="property in data.content | limitTo: 2">
+                <div class="step-content-attributes">{{property.attribute}}: {{property.value}}</div>
+            </div>
+        </div>
+    </div>
+</div>

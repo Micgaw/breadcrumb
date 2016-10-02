@@ -1,0 +1,9 @@
+.addStep {
+    margin-bottom: 1rem;
+}
+.breadcrumb {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 12px;
+    height: 5rem;
+}

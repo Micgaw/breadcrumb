@@ -1,0 +1,47 @@
+.step {
+    display: inline-block;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+}
+.step-overline {
+    height: 0.5rem;
+}
+
+.step-holder{
+    display: flex;
+}
+
+.step-holder:hover .step-icons{
+    background-color: #d0d0d0;
+}
+
+.step-holder:hover .step-content{
+    background-color: #d0d0d0;
+}
+
+.step-icons{
+    text-align: center;
+    margin-right: 0.1rem;
+    background-color: #e0e0e0;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    flex-flow: column;
+}
+
+.step-icons-title{
+    font-weight: bold;
+}
+
+.step-content {
+    height: 4rem;
+    width: 10rem;
+    background-color: #e0e0e0;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    flex-flow: column;
+}
+
+.step-content-attributes{
+    padding-top: 0.2rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
